@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- Please see the LICENSE.md file included with this distribution for attribution and copyright information. -->
+
+<root version='3.3' release='3'>
+	<properties>
+		<name>Feature: Hit Margins</name>
+		<version>1.0</version>
+		<author>bmos (Wil Thieme)</author>
+		<description>This extension improves chat messaging to give an idea of how closely attacks hit/miss.</description>
+		<ruleset>
+			<name>3.5E</name>
+		</ruleset>
+		<ruleset>
+			<name>PFRPG</name>
+		</ruleset>
+		<ruleset>
+			<name>4E</name>
+		</ruleset>
+		<ruleset>
+			<name>5E</name>
+		</ruleset>
+		<ruleset>
+			<name>SFRPG</name>
+		</ruleset>
+		<loadorder>34</loadorder>
+	</properties>
+
+	<announcement text="https://github.com/bmos/FG-HitMargins\nHit Margins v1.0:\nThis extension improves chat messaging to give an idea of how closely attacks hit/miss." font="emotefont" />
+
+	<base>
+		<!-- Scripts -->
+		<script name="AttackMargins" file="scripts/manager_attack_margins.lua" />
+	</base>
+</root>
