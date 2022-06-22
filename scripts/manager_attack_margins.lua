@@ -142,8 +142,8 @@ local function onAttack_pfrpg(rSource, rTarget, rRoll)
 
 	--	bmos adding hit margin tracking
 	--	for compatibility with hit margins, add this here in your onAttack function
-	if AmmunitionManager then
-		local nHitMargin = AmmunitionManager.calculateMargin(nDefenseVal, rRoll.nTotal)
+	if AttackMargins then
+		local nHitMargin = AttackMargins.calculateMargin(nDefenseVal, rRoll.nTotal)
 		if nHitMargin then table.insert(rRoll.aMessages, '[BY ' .. nHitMargin .. '+]') end
 	end
 	--	end bmos adding hit margin tracking
@@ -203,8 +203,8 @@ local function onAttack_5e(rSource, rTarget, rRoll)
 
 	--	bmos adding hit margin tracking
 	--	for compatibility with hit margins, add this here in your onAttack function
-	if AmmunitionManager then
-		local nHitMargin = AmmunitionManager.calculateMargin(nDefenseVal, rRoll.nTotal)
+	if AttackMargins then
+		local nHitMargin = AttackMargins.calculateMargin(nDefenseVal, rRoll.nTotal)
 		if nHitMargin then table.insert(rRoll.aMessages, '[BY ' .. nHitMargin .. '+]') end
 	end
 	--	end bmos adding hit margin tracking
@@ -287,8 +287,8 @@ local function onAttack_4e(rSource, rTarget, rRoll)
 
 	--	bmos adding hit margin tracking
 	--	for compatibility with hit margins, add this here in your onAttack function
-	if AmmunitionManager then
-		local nHitMargin = AmmunitionManager.calculateMargin(nDefenseVal, rRoll.nTotal)
+	if AttackMargins then
+		local nHitMargin = AttackMargins.calculateMargin(nDefenseVal, rRoll.nTotal)
 		if nHitMargin then table.insert(rRoll.aMessages, '[BY ' .. nHitMargin .. '+]') end
 	end
 	--	end bmos adding hit margin tracking
@@ -472,8 +472,8 @@ local function onAttack_sfrpg(rSource, rTarget, rRoll)
 
 	--	bmos adding hit margin tracking
 	--	for compatibility with hit margins, add this here in your onAttack function
-	if AmmunitionManager then
-		local nHitMargin = AmmunitionManager.calculateMargin(nDefenseVal, rRoll.nTotal)
+	if AttackMargins then
+		local nHitMargin = AttackMargins.calculateMargin(nDefenseVal, rRoll.nTotal)
 		if nHitMargin then table.insert(rRoll.aMessages, '[BY ' .. nHitMargin .. '+]') end
 	end
 	--	end bmos adding hit margin tracking
