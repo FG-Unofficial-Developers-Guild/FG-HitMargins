@@ -5,7 +5,7 @@
 <root version='3.3' release='3'>
 	<properties>
 		<name>Feature: Hit Margins</name>
-		<version>1.1</version>
+		<version>1.2</version>
 		<author>bmos (Wil Thieme)</author>
 		<description>This extension improves chat messaging to give an idea of how closely attacks hit/miss.</description>
 		<ruleset>
@@ -26,7 +26,7 @@
 		<loadorder>34</loadorder>
 	</properties>
 
-	<announcement text="https://github.com/bmos/FG-HitMargins\nHit Margins v1.1:\nThis extension improves chat messaging to give an idea of how closely attacks hit/miss." font="emotefont" icon="hitmargintarget"/>
+	<announcement text="https://github.com/bmos/FG-HitMargins\nHit Margins v1.2:\nThis extension improves chat messaging to give an idea of how closely attacks hit/miss." font="emotefont" icon="hitmargintarget"/>
 
 	<base>
 		<!-- Scripts -->
