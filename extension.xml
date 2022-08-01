@@ -26,10 +26,12 @@
 		<loadorder>34</loadorder>
 	</properties>
 
-	<announcement text="https://github.com/bmos/FG-HitMargins\nHit Margins v1.1:\nThis extension improves chat messaging to give an idea of how closely attacks hit/miss." font="emotefont" />
+	<announcement text="https://github.com/bmos/FG-HitMargins\nHit Margins v1.1:\nThis extension improves chat messaging to give an idea of how closely attacks hit/miss." font="emotefont" icon="hitmargintarget"/>
 
 	<base>
 		<!-- Scripts -->
 		<script name="AttackMargins" file="scripts/manager_attack_margins.lua" />
+		<!-- Chat Graphics -->
+		<icon name="hitmargintarget" file="graphics/target.png" />
 	</base>
 </root>
