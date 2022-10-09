@@ -14,11 +14,11 @@ function calculateMargin(nDC, nTotal)
 		end
 		nMargin = math.floor(nMargin / 5) * 5
 
-		if nMargin > 0 then return nMargin; end
+		if nMargin > 0 then return nMargin end
 	end
 end
 
-local onPreAttackResolve_old;
+local onPreAttackResolve_old
 local function onPreAttackResolve_new(rSource, rTarget, rRoll, rMessage, ...)
 	onPreAttackResolve_old(rSource, rTarget, rRoll, rMessage, ...)
 	if rRoll.nDefenseVal then
@@ -29,6 +29,6 @@ end
 
 -- Function Overrides
 function onInit()
-	onPreAttackResolve_old = ActionAttack.onPreAttackResolve;
-	ActionAttack.onPreAttackResolve = onPreAttackResolve_new;
+	onPreAttackResolve_old = ActionAttack.onPreAttackResolve
+	ActionAttack.onPreAttackResolve = onPreAttackResolve_new
 end
