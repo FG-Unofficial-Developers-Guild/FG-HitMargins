@@ -1,4 +1,4 @@
-[![Build FG-Usable File](https://github.com/bmos/FG-HitMargins/actions/workflows/create-ext.yml/badge.svg)](https://github.com/bmos/FG-HitMargins/actions/workflows/create-ext.yml) [![Run Luacheck on Latest Release](https://github.com/bmos/FG-HitMargins/actions/workflows/luacheck.yml/badge.svg)](https://github.com/bmos/FG-HitMargins/actions/workflows/luacheck.yml)
+[![Build FG-Usable File](https://github.com/bmos/FG-HitMargins/actions/workflows/release.yml/badge.svg)](https://github.com/bmos/FG-HitMargins/actions/workflows/release.yml) [![Run Luacheck on Latest Release](https://github.com/bmos/FG-HitMargins/actions/workflows/luacheck.yml/badge.svg)](https://github.com/bmos/FG-HitMargins/actions/workflows/luacheck.yml)
 
 # Hit Margins
 This extension improves chat messaging to give an idea of how closely attacks hit/miss.
