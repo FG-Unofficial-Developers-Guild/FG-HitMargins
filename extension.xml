@@ -6,7 +6,7 @@
 	<properties>
 		<name>Feature: Hit Margins</name>
 		<version>1.3</version>
-		<author>bmos (Wil Thieme)</author>
+		<author>bmos (Ramona T)</author>
 		<description>This extension improves chat messaging to give an idea of how closely attacks hit/miss.</description>
 		<ruleset>
 			<name>3.5E</name>
